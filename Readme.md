@@ -1,11 +1,7 @@
 # Project Description
 
-This is a basic template for starting projects.
+Making a simple game using classes and constructors
 
 ## Deployment
 
-To deploy your project just run:
-
-- Make sure you have a lowercase folder name
-- `npm run deploy`
-- You should have a 'surge.sh' link now for your project
+tiy-maryhenry-game2.surge.sh
