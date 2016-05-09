@@ -1,5 +1,14 @@
 @import 'bulma';
 
 .container {
-  color: blue;
+  color: white;
+}
+html{
+	background: url('../images/deathstar.png') no-repeat fixed;
+	background-size: 1250px;
+}
+
+.document {
+  background: url('../images/badguyswin.png') no-repeat fixed;
+	background-size: 1250px;
 }
