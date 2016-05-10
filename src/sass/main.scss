@@ -1,25 +1,64 @@
 @import 'bulma';
 
 .container {
+  width: 100%;
   color: white;
+  position: relative;
+  margin: auto;
+
 }
 html{
 	background: url('../images/deathstar.png') no-repeat fixed;
-	background-size: 1250px;
+	background-size: 100%;
 }
 
-.document {
-  background: url('../images/badguyswin.png') no-repeat fixed;
-	background-size: 1250px;
+
+.duel {
+  position: absolute;
+  right: 45%;
+  top: 430px;
+  border: 1px solid white;
+  padding: 5px;
+  font-size: 16px;
 }
 
-.jedi img{
-  width: 250px;
+.duel:hover {
+  color: yellow;
+}
+.jedi {
+    img {
+  width: 20%;
   transform: rotateY(180deg);
+  position: absolute;
+  left: 22%;
+  top:150%;
 
-.sith img {
-  width: 150px;
 }
 
+      input {
+    position: absolute;
+    left: 20%;
+    top: 420px;
+    background-color: black;
+    color: white;
+  }
+}
+
+
+.sith {
+
+  img {
+  width: 40%;
+  position: absolute;
+  right: 10%;
+  top: 140%;
+}
+input {
+position: absolute;
+right: 20%;
+top: 420px;
+background-color: black;
+color: white;
+}
 
 }
