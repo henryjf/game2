@@ -3,7 +3,7 @@
 .container {
   font-family: 'Roboto', sans-serif;
   max-width: 400px;
-  height: 700px;
+  height: 500px;
   color: white;
   position: relative;
   margin: auto;
@@ -94,25 +94,39 @@ html{
     .jedi {
         img {
           width: 30%;
-          // transform: rotateY(180deg);
-          // position: absolute;
-          // left: 20%;
-          // top:75px;
           }
           h3 {
             left: 25%;
-            top: 480px;
+            top: 440px;
           }
-
           input {
-            // width: 75px;
-            // font-size: 18px;
-            // position: absolute;
             left: 25%;
             top: 540px;
-            // background-color: black;
-            // color: white;
-          }
+            }
+  }
+
+  .sith {
+
+    img {
+      width: 62%;
+      }
+      h3 {
+
+        position: absolute;
+        width: 20%;
+        margin: 5px;
+        right: 10%;
+        top: 455px;
+    }
+      input {
+      width: 72px;
+      position: absolute;
+      right: 15%;
+      top: 40px;
+      // background-color: black;
+      // color: white;
+    }
+
   }
 }
 html{
@@ -123,13 +137,11 @@ html{
 
   .container {
     max-width: 1100px;
+
     .jedi {
         img {
           width: 25%;
-          // transform: rotateY(180deg);
-          // position: absolute;
-          // left: 20%;
-          // top:75px;
+
           }
           h3 {
             left: 25%;
@@ -137,13 +149,8 @@ html{
           }
 
           input {
-            width: 75px;
-            font-size: 18px;
-            position: absolute;
             left: 25%;
             top: 540px;
-            background-color: black;
-            color: white;
           }
   }
   }
