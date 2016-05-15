@@ -1,8 +1,7 @@
-@import 'bulma';
+// @import 'bulma';
 
 .container {
-  border: 1px solid red;
-  width: 100%;
+  max-width: 400px;
   height: 700px;
   color: white;
   position: relative;
@@ -12,9 +11,10 @@
 
 
 .duel {
+  color: blue;
   position: absolute;
-  right: 45%;
-  top: 430px;
+  right: 35%;
+  top: 375px;
   border: 1px solid white;
   padding: 5px;
   font-size: 16px;
@@ -23,57 +23,91 @@
 .duel:hover {
   color: yellow;
 }
-.jedi {
-    img {
-  width: 20%;
-  transform: rotateY(180deg);
-  position: absolute;
-  left: 22%;
-  top:15%;
 
-}
-  h3 {
-    position: absolute;
-    left: 22%;
-    top: 50%;
-  }
-
-      input {
-    position: absolute;
-    left: 20%;
-    top: 60%;
-    background-color: black;
-    color: white;
-  }
-}
 
 
 .sith {
 
   img {
-  width: 40%;
-  position: absolute;
-  right: 10%;
-  top: 14%;
-}
-h3 {
-  position: absolute;
-  width: 20%;
-  right: 10%;
-  top: 50%;
-}
-input {
-position: absolute;
-right: 15%;
-top: 420px;
-background-color: black;
-color: white;
-}
+    width: 62%;
+    position: absolute;
+    right: 5%;
+    top: 10%;
+  }
+    h3 {
+      display: inline inline-block;;
+      position: absolute;
+      width: 20%;
+      right: 10%;
+      top: 40%;
+  }
+    input {
+    width: 75px;
+    position: absolute;
+    right: 15%;
+    top: 95%;
+    background-color: black;
+    color: white;
+  }
 
+}
+.jedi {
+    img {
+      width: 30%;
+      transform: rotateY(180deg);
+      position: absolute;
+      left: 20%;
+      top:11%;
+
+}
+  h3 {
+    position: absolute;
+    left: 15%;
+    top: 280px;
+  }
+
+  input {
+    width: 75px;
+    position: absolute;
+    left: 20%;
+    top: 48%;
+    background-color: black;
+    color: white;
+  }
 }
 }
 
 html{
   background: url('../images/deathstar.png') no-repeat fixed;
-  background-size: 100%;
+  background-size: 700px;
 }
+
+// @media screen and (width: 500px){
+//     .container {
+//       // width: 400px;
+//     }
+//
+//     .jedi {
+//         img {
+//           width: 50px;
+//           // transform: rotateY(180deg);
+//           // position: absolute;
+//           // left: 22%;
+//           // top:15%;
+//
+//     }
+//       h3 {
+//         position: absolute;
+//         left: 22%;
+//         top: 50%;
+//       }
+//
+//       input {
+//         position: absolute;
+//         left: 20%;
+//         top: 60%;
+//         background-color: black;
+//         color: white;
+//       }
+//     }
+  // }

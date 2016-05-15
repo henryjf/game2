@@ -21,12 +21,12 @@ duelButton.on('click', function(event) {
   event.preventDefault();
 
 //using lodash to set a random number of points to be targeted when jedi.attack or sith.attack is called
-let hitpoints = _.random(1, 13);
+let hitpoints = _.random(5, 14);
 jedi.attack(sith, sithStatusBar, hitpoints);
 
 // using setTimeout to delay sith response by 1 sec
 setTimeout(function() {
-let hitpoints = _.random(1, 16);
+let hitpoints = _.random(5, 16);
 sith.attack(jedi, jediStatusBar, hitpoints);
 }, 1000);
 
