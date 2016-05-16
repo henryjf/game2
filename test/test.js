@@ -3,11 +3,9 @@ import chai from 'chai';
 
 // Import Any Files to Test
 import '../src/js/main';
-import '../src/js/classes/game';
-import '../src/js/classes/jedi';
-import '../src/js/classes/sith';
 
 // Set Chai Constants
+
 const expect = chai.expect;
 const should = chai.should();
 const assert = chai.assert;
