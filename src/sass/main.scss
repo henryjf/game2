@@ -83,7 +83,7 @@
 
 html{
   background: url('../images/deathstar.png') no-repeat fixed;
-  background-size: 700px;
+  background-size: 800px
 }
 
 @media screen and (min-width: 500px) {
@@ -94,13 +94,11 @@ html{
 
     .duel {
       right: 35%;
-      top: 475px;
+      top: 25px;
 
       padding: 5px;
       font-size: 16px;
     }
-
-
 
     .jedi {
         img {
@@ -109,11 +107,11 @@ html{
           }
           h3 {
             left: 25%;
-            top: 440px;
+            top: 430px;
           }
           input {
             left: 25%;
-            top: 500px;
+            top: 480px;
             font-size: 18px;
             }
   }
@@ -127,12 +125,12 @@ html{
 
         width: 20%;
         right: 10%;
-        top: 455px;
+        top: 445px;
     }
       input {
       width: 72px;
       right: 15%;
-      top: 40px;
+      top: 30px;
 
     }
 
@@ -146,21 +144,28 @@ html{
 
   .container {
     max-width: 1100px;
+    height: 700px;
+
+    .duel {
+      right: 40%;
+      top: 25px;
+    }
+
 
     .sith {
 
       img {
-        width: 52%;
+        width: 50%;
         }
         h3 {
 
           width: 20%;
           right: 10%;
-          top: 455px;
+          top: 505px;
       }
         input {
         width: 72px;
-        right: 15%;
+        right: 45%;
         top: 40px;
 
       }
@@ -169,7 +174,7 @@ html{
 
     .jedi {
         img {
-          width: 25%;
+          width: 23%;
           }
           h3 {
             left: 20%;
