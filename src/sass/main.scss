@@ -7,6 +7,7 @@
   color: white;
   position: relative;
   margin: auto;
+  font-size: 12px;
 
 
 
@@ -33,7 +34,7 @@
     width: 62%;
     position: absolute;
     right: 5%;
-    top: 75px;
+    top: 65px;
   }
     h3 {
 
@@ -59,7 +60,7 @@
       transform: rotateY(180deg);
       position: absolute;
       left: 20%;
-      top:75px;
+      top:65px;
 
 }
   h3 {
@@ -70,7 +71,7 @@
 
   input {
     width: 75px;
-    font-size: 18px;
+    font-size: 14px;
     position: absolute;
     left: 20%;
     top: 340px;
@@ -89,11 +90,22 @@ html{
 
   .container {
     max-width: 700px;
+    font-size: 16px;
+
+    .duel {
+      right: 35%;
+      top: 475px;
+
+      padding: 5px;
+      font-size: 16px;
+    }
+
 
 
     .jedi {
         img {
           width: 30%;
+          top:75px;
           }
           h3 {
             left: 25%;
@@ -101,7 +113,8 @@ html{
           }
           input {
             left: 25%;
-            top: 540px;
+            top: 500px;
+            font-size: 18px;
             }
   }
 
@@ -112,19 +125,15 @@ html{
       }
       h3 {
 
-        position: absolute;
         width: 20%;
-        margin: 5px;
         right: 10%;
         top: 455px;
     }
       input {
       width: 72px;
-      position: absolute;
       right: 15%;
       top: 40px;
-      // background-color: black;
-      // color: white;
+
     }
 
   }
@@ -138,16 +147,34 @@ html{
   .container {
     max-width: 1100px;
 
+    .sith {
+
+      img {
+        width: 52%;
+        }
+        h3 {
+
+          width: 20%;
+          right: 10%;
+          top: 455px;
+      }
+        input {
+        width: 72px;
+        right: 15%;
+        top: 40px;
+
+      }
+
+    }
+
     .jedi {
         img {
           width: 25%;
-
           }
           h3 {
-            left: 25%;
+            left: 20%;
             top: 480px;
           }
-
           input {
             left: 25%;
             top: 540px;

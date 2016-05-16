@@ -10,8 +10,7 @@ export class Jedi {
 attack(sith, sithHealthbar, hitpoints) {
   sith.health = sith.health - hitpoints;
 
-  //using .val to get value of input element
-
+//shows the value assigned to the healthbar
   sithHealthbar.val(sith.health);
   };
 };

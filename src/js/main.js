@@ -24,11 +24,11 @@ duelButton.on('click', function(event) {
 let hitpoints = _.random(5, 14);
 jedi.attack(sith, sithStatusBar, hitpoints);
 
-// using setTimeout to delay sith response by 1 sec
+// using setTimeout to delay sith response by .5 sec
 setTimeout(function() {
 let hitpoints = _.random(5, 16);
 sith.attack(jedi, jediStatusBar, hitpoints);
-}, 1000);
+}, 500);
 
 game.checkStatus(jedi, sith);
 });
