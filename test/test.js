@@ -13,46 +13,37 @@ const expect = chai.expect;
 const should = chai.should();
 const assert = chai.assert;
 
-describe('Testing Game Class', function () {
+  describe('Testing Game Class', function () {
+    let game;
 
-  let game;
-
-  // describe('Testing the Creation of Something', function () {
-  beforeEach( function () {
-    game = new Game();
-  });
-
-    // it('should exist after we create it', function () {
-    //   let x = new Object;
-    //   expect(x).to.be.an.instanceof(Object);
-    // });
-    it('should be an instance of game', function () {
-      expect(game).to.be.an.instanceof(Game);
+    beforeEach( function () {
+      game = new Game();
     });
 
-  // });
-});
+      it('should be an instance of game', function () {
+        expect(game).to.be.an.instanceof(Game);
+      });
 
-
-
-describe('Testing Sith Class', function() {
-
-  let sith;
-
-  beforeEach( function () {
-    sith = new Sith();
   });
 
-  it('should be an instance of sith', function() {
-    expect(sith).to.be.an.instanceof(Sith);
-  });
 
-});
+
+  describe('Testing Sith Class', function() {
+    let sith;
+
+    beforeEach( function () {
+      sith = new Sith();
+    });
+
+    it('should be an instance of sith', function() {
+      expect(sith).to.be.an.instanceof(Sith);
+    });
+
+  });
 
 
 
   describe('Testing Jedi Class', function() {
-
     let jedi;
 
     beforeEach( function () {
@@ -63,9 +54,4 @@ describe('Testing Sith Class', function() {
       expect(jedi).to.be.an.instanceof(Jedi);
     });
 
-
-
   });
-
-
-// });
