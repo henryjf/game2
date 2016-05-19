@@ -2,7 +2,10 @@
 import chai from 'chai';
 
 // Import Any Files to Test
-import '../src/js/main';
+// import '../src/js/main';
+import {Game} from '../src/js/classes/game';
+import {Jedi} from '../src/js/classes/jedi';
+import {Sith} from '../src/js/classes/sith';
 
 // Set Chai Constants
 
@@ -27,14 +30,42 @@ describe('Testing Game Class', function () {
       expect(game).to.be.an.instanceof(Game);
     });
 
-    it('should end the game when game character health points are <= 0', function () {
-      game.jedi.health <= 0;
-      expect(game.checkStatus).to.equal('The Sith rule the Galaxy!');
+  // });
+});
+
+
+
+describe('Testing Sith Class', function() {
+
+  let sith;
+
+  beforeEach( function () {
+    sith = new Sith();
+  });
+
+  it('should be an instance of sith', function() {
+    expect(sith).to.be.an.instanceof(Sith);
+  });
+
+});
+
+
+
+  describe('Testing Jedi Class', function() {
+
+    let jedi;
+
+    beforeEach( function () {
+      jedi = new Jedi();
+    })
+
+    it('should be an instance of jedi', function() {
+      expect(jedi).to.be.an.instanceof(Jedi);
     });
 
 
 
-  // });
+  });
 
 
-});
+// });
